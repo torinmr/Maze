@@ -1,0 +1,8 @@
+This directory contains a Java maze maker and solver. It generates a square maze of given size, and then solves it. Both generation and solving use Depth First Search.
+
+To compile: javac Maze.java
+
+To run: java Maze
+
+This program uses Sedgewick and Wayne's standard libraries, used in COS 126 at Princeton University. These libraries are available at http://introcs.cs.princeton.edu/java/stdlib/
+
