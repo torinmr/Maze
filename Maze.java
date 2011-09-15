@@ -220,8 +220,8 @@ public class Maze
 	    StdOut.println("     Values from 10 to 100 recommended.");
             StdOut.println("     (type 0 to quit)");
             int size = StdIn.readInt();
-            if (size == 0) break;
-            int[][] maze = generate(size, size);           
+            if (size == 0) {System.exit(0);}
+	    int[][] maze = generate(size, size);           
             int height = maze.length;
             int width = maze[0].length;
             
